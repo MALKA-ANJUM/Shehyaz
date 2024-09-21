@@ -1,0 +1,50 @@
+.logo-img {
+  width: 110px;
+}
+.headerTabs {
+  display: flex;
+}
+.headerTabs li {
+  color: var(--primary-color);
+  list-style: none;
+  margin-left: 20px;
+}
+.headerTabs li a {
+  text-decoration: none;
+  color: var(--primary-color);
+  line-height: 1.2;
+}
+.list.list-inline-item {
+  cursor: pointer;
+}
+.drawer button.menu svg {
+    color: red;
+}
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 10px;
+  width: 170px;
+  height: auto;
+  background: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+  padding-left: 0;
+}
+.dropdownMenu li {
+  width: 100%;
+  list-style: none;
+  margin-left: 0;
+}
+.dropdownMenu li button {
+  width: 100% !important;
+  text-align: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+.navbar a:hover,
+.navbar a.active {
+  border-bottom: 3px solid var(--primary-color);
+}

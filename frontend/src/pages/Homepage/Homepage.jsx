@@ -3,6 +3,8 @@ import Product from "../../Components/Products/Product.jsx";
 import Banner from "./Banner/Banner";
 import "./Homepage.css";
 import TopProducts from "./TopProducts/TopProducts.jsx";
+import Footer from "../../Components/Footer/Footer.jsx";
+
 
 const Homepage = () => {
   return (
@@ -106,6 +108,16 @@ const Homepage = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
     </div>
   );
 };
